@@ -1,0 +1,132 @@
+/*Reset*/
+*{margin:0; padding:0; box-sizing: border-box; font-family: arial;}
+
+body{
+  background:#f7f7f7;
+}
+
+header{
+  max-width: 1500px;
+  margin: 0 auto;
+
+}
+
+#menu{
+  width: 100%;
+  height: 60px;
+  padding:10px;
+  position: absolute;
+  top:0;
+  background: #fff;
+  z-index:99;
+  max-width: 1500px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.14);
+}
+#menu a{
+  color: #c7c7c7;
+  text-decoration: none;
+  width: 210px;
+  margin: 0;
+}
+#menu h1{
+  width: 210px;
+  margin: 0;
+  font-weight: normal;
+}
+#menu a:hover{
+  color:#e6e6e6;
+}
+
+#menu nav{
+  position: relative;
+  top: 20px;
+  float: left;
+}
+
+#menu nav a{
+  margin-right: 15px;
+
+}
+/*Chamada de açao para galeria*/
+#conteudo{
+  width: 400px;
+  position: absolute;
+  top: 150px;
+  z-index: 4;
+  left: 50%;
+  margin-left: -200px;
+}
+
+#conteudo p{
+  color:#fff;
+  text-align: center;
+}
+
+/*Botao para galeria*/
+#conteudo button{
+    transition: 0.3s;
+    position: relative;
+    width: 150px;
+    height: 50px;
+    left: 50%;
+    margin-top: 75px;
+    margin-left: -75px;
+    border:none;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+    font-size: 1.8em;
+    color:#fff;
+}
+#conteudo button:hover{
+    transition: 0.3s;
+    background:#fff;
+    color:#9e9e9e;
+}
+/*Mascara de background*/
+.mask{
+  position: absolute;
+  top:0;
+  width:100%;
+  height:600px;
+  opacity: .5;
+  background: #000;
+  z-index: 2;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+/*Background*/
+#back-header{
+  width:100%;
+  height:600px;
+  background: url('img/header.jpg') no-repeat;
+  background-size: cover;
+  z-index: -5;
+  background-attachment: fixed;
+}
+/*Seçao principal*/
+section{
+  width:100%;
+  height:600px;
+  padding-top: 20px;
+  background:#f7f7f7;
+}
+
+/*Rodape*/
+footer{
+  width:100%;
+  height:100px;
+  padding-top: 20px;
+  background:#f0f0f0;
+}
+footer p{
+  text-align:center;
+  font-size:14px;
+  color: #8a8a8a;
+}
+
+/*Classe para limpar vazamento do float*/
+.clear{
+  clear: both;
+}
