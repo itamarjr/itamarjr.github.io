@@ -1,4 +1,3 @@
 # site
-My personal site
-http://github.com - automatic!
+My personal site! - 
 [Visit](http://itamarjr.github.io)
