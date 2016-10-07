@@ -120,7 +120,7 @@ footer{
   padding-top: 20px;
   background:#f0f0f0;
 }
-footer p{
+footer p, a{
   text-align:center;
   font-size:14px;
   color: #8a8a8a;
